@@ -1,5 +1,7 @@
 from app import app
 from flask import render_template, request, redirect, url_for, flash
+import datetime
+
 
 
 ###
@@ -17,6 +19,19 @@ def about():
     """Render the website's about page."""
     return render_template('about.html', name="Mary Jane")
 
+@app.route('/profile/')
+def profile():
+    """Render the website's profile page."""
+    return render_template('profile.html', name="Fay McIntosh")
+    
+
+#def format_date_joined():
+ #   now = datetime.datetime.now() 
+  #  date_joined = datetime.date(2023, 2, 7) # a specific date
+## Format the date to return only month and year date
+   # print ("Joined " + date_joined.strftime("%B, %Y"))
+    #d=datetime.date()
+    #print('Month:', date.month 'Year:', date.year )
 
 ###
 # The functions below should be applicable to all Flask apps.

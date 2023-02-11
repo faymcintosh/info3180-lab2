@@ -1,3 +1,51 @@
 body {
     padding-top: 5rem;
 }
+
+img {
+    
+    width: 30%;
+    border-radius: 50%;
+}
+
+div .front {
+    display: grid;
+    place-items: center;
+    background-color: white;
+}
+
+p .front1 {
+    line-height: 2.5;
+}
+
+.front2 {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    
+}
+ div .status {
+    align-items: center;
+    
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+button{
+    border-radius: 15px;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(126,211,33);
+    border: none;
+    width: 150px;
+    height: 50px;
+    
+
+
+   
+}

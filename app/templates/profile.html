@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block main %}
+
+
+<body>
+    <div class="container">
+        <div class="front">
+            <img scr= "{{ url_for('static', filename='picture/meee.jpg') }}" alt="image of myself"/>
+            <p class="front1">Fay McIntosh 
+                <br> @litci 
+                <br> Kinston, Jamaica 
+                <br> joined February,2022</p>
+            
+        </div>
+    </div>
+    <div>
+        <p>I am a smart and talented young woman who loves website
+            design and development. Contact me if you'd like to
+            work together on a new project.
+        </p>
+    </div>
+
+    <div class="front2">
+        <div class="status">7 <br> Post</div>
+        <div class="status">100 <br> Following</div>
+        <div class="status">250 <br> Followers</div>
+
+    </div>
+
+    <div class="btn"><button>Follow</button> </div>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+{% endblock %}
