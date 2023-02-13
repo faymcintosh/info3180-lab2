@@ -23,13 +23,14 @@ def about():
 def profile():
     """Render the website's profile page."""
     return render_template('profile.html', name="Fay McIntosh")
+   
     
 
-#def format_date_joined():
+def format_date_joined():
  #   now = datetime.datetime.now() 
-  #  date_joined = datetime.date(2023, 2, 7) # a specific date
+    date_joined = datetime.date(2018, 1, 7) # a specific date
 ## Format the date to return only month and year date
-   # print ("Joined " + date_joined.strftime("%B, %Y"))
+    print ("Joined " + date_joined.strftime("%B, %Y"))
     #d=datetime.date()
     #print('Month:', date.month 'Year:', date.year )
 

@@ -1,19 +1,19 @@
 {% extends "base.html" %}
 {% block main %}
 
-
-<body>
+<header>
     <div class="container">
-        <div class="front">
-            <img scr= "{{ url_for('static', filename='picture/meee.jpg') }}" alt="image of myself"/>
-            <p class="front1">Fay McIntosh 
-                <br> @litci 
-                <br> Kinston, Jamaica 
-                <br> joined February,2022</p>
-            
-        </div>
+        <img src= "{{ url_for('static', filename='picture/meee.jpg') }}" alt="image of myself"/>
+        <h1> Mary Jane</h1>
+            <br> <p class="size">@mjane
+            <br> Kingston, Jamaica 
+            <br> Joined January, 2018</p>
+        
+
     </div>
-    <div>
+</header>
+<body>
+    <div class="front">
         <p>I am a smart and talented young woman who loves website
             design and development. Contact me if you'd like to
             work together on a new project.
@@ -21,9 +21,9 @@
     </div>
 
     <div class="front2">
-        <div class="status">7 <br> Post</div>
-        <div class="status">100 <br> Following</div>
-        <div class="status">250 <br> Followers</div>
+        <div class="status"><strong>7 </strong><br> Post</div>
+        <div class="status"><strong>100 </strong> <br> Following</div>
+        <div class="status"><strong>250 </strong> <br> Followers</div>
 
     </div>
 

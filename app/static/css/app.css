@@ -2,11 +2,36 @@ body {
     padding-top: 5rem;
 }
 
+header{
+    background-color: rgb(97,163,107);
+    line-height: 2.1;
+    
+}
+
+div .container{
+    background-color:rgb(97,163,107);
+    display: grid;
+    place-items: center;
+    line-height: 0.8;
+    color: white;
+    
+    
+}
+
 img {
     
-    width: 30%;
+    width: 20%;
     border-radius: 50%;
+    place-items: center;
+    
+    
 }
+
+.size {
+    line-height: 2.0;
+}
+
+
 
 div .front {
     display: grid;
@@ -14,9 +39,9 @@ div .front {
     background-color: white;
 }
 
-p .front1 {
+/*p .front1 {
     line-height: 2.5;
-}
+}*/
 
 .front2 {
     display: flex;
